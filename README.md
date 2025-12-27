@@ -17,7 +17,7 @@ The system is implemented as a modular backend with the following components:
 3. Adaptive text generation with complexity control
 
 ## Retrieval-Augmented Generation (RAG)
-The system implements a **retrieval-augmented generation (RAG) pipeline** that grounds explanations in **curated linguistic resources**, including vocabulary lists and reference materials.
+The system implements a retrieval-augmented generation (RAG) pipeline that grounds explanations in curated linguistic resources, including vocabulary lists and reference materials.
 
 Retrieved context is incorporated into prompt construction to improve factual grounding and reduce hallucination in generated explanations.
 
@@ -35,7 +35,7 @@ These controls are used to adapt generated content for different learner profici
 - Supports local development and deployed execution
 
 ## Languages
-The system has been tested with text inputs in **English and Chinese** as part of ongoing development.
+The system has been tested with text inputs in English and Chinese as part of ongoing development.
 
 ## Limitations
 - Complexity control is heuristic and may not fully capture semantic difficulty
